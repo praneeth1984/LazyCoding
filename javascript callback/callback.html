@@ -1,0 +1,30 @@
+<html>
+<head>
+    <title>Call back example</title>
+    <style>
+        body{
+            margin:10px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align:center;
+        }        
+    </style>
+    <script type="text/javascript">
+        function triggerCallback()
+        {
+            alert('Wait for five seconds for callback alert.')
+            setTimeout(callbackFunction, 5000);
+        }
+
+        function callbackFunction()
+        {
+            alert('I am the callback function');
+        }
+    </script>
+</head>
+<body>
+    <div><h1>Page to test call backs</h1>
+        <br>
+        <input type="button" onclick="triggerCallback();" value="Trigger callback" />
+    </div>
+</body>
+</html>
