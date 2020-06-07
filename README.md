@@ -1,2 +1,2 @@
 # LazyCoding
-All POCs related to LazyCod.in will be uplaoded here.
+All POCs related to LazyCoding.in will be uplaoded here.
