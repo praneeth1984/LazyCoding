@@ -1,2 +1,2 @@
 # LazyCoding
-Reactjs project on creating a popup
+All POCs related to LazyCod.in will be uplaoded here.
